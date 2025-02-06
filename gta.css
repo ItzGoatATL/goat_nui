@@ -72,6 +72,8 @@
     height: 50px;
     background-color: #01001d;
     border: 1px solid #78fad6; 
+    font-style: italic;
+    text-align: center;
 }
 .navbar_title {
     width: 468px;
@@ -219,7 +221,7 @@
 }
 
 /*FONT STYLES */
-.slant {
+.italic {
     font-style: italic;
 }
 .center-text {
