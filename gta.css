@@ -79,6 +79,7 @@
     line-height: 50px;
     font-size: 22px;
     font-family: "Oswald", system-ui;
+    border: 1px solid #78fad6; 
 }
 .navbar_x {
     font-size: 35px;
