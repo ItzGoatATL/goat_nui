@@ -8,6 +8,62 @@
     margin-top: 12%;
     margin-right: 8%;
 }
+.menu {
+    width: 100%;
+    height: 85px;
+    background-color: #01001d;
+    margin-top: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.menu_title {
+    width: 100%;
+    height: 50px;
+    font-family: "Oswald", system-ui;
+    font-size: 30px;
+    padding-top: 5px;
+}
+.menu_description {
+    width: 100%;
+    height: 30px;
+    font-size: 11px;
+}
+.menu_tag {
+    float: right;
+    font-size: 12px;
+    color: #78fad6;
+    padding-top: 10px;
+}
+.menu_img {
+    width:60px;
+    height:60px;
+    float:left;
+    padding-top:20px;
+    padding-right:10px;
+}
+.menu_footer {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 7px;
+    padding-right: 2%;
+    text-align: right;
+    font-size: 10px;
+    background-color: #01001d;
+}
+.menu_small {
+    width: 100%;
+    height: 50px;
+    background-color: #01001d;
+    margin-top: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Oswald", system-ui;
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 50px;
+    text-align: center;
+}
 
 
 /* NAV BAR */
@@ -17,15 +73,132 @@
     background-color: #01001d;
     border: 1px solid #78fad6; 
 }
-.navbartitle {
+.navbar_title {
     width: 468px;
     height: 100%;
     line-height: 50px;
-    text-align: center;
-    font-style: italic;
     font-size: 22px;
     font-family: "Oswald", system-ui;
+}
+.navbar_x {
+    font-size: 35px;
+    padding-right: 10px;
+    color: #78fad6;
+    width: 30px;
+    height: 100%;
+    line-height: 50px;
+    font-family: "Luckiest Guy", serif;
+}
+
+/* BANNER */
+.banner {
+    width: 100%;
+    height: 175px;
+    margin-top: 7px;
+    background-image: url("/nui/images/gbanner.png");
+}
+.banner_container {
+    width: 350px;
+    height: 100%;
+    padding-left: 25px;
+    padding-top: 30px;
+}
+.banner_title {
+    width: 100%;
+    height: 40px;
+    font-family: "Luckiest Guy", serif;
+    font-size: 32px;
+    color: #78fad6;
+}
+.banner_description {
+    width: 100%;
+    height: 50px;
+    font-size: 10px;
+}
+
+
+
+/* CONVERSATION DISPLAY */
+.convo {
+    width: 500px;
+    height: 140px;
+    float: right;
+    margin-top: 12%;
+    padding-right: 15px;
+    background-color: #01001d;
+    position: relative;
+    border: 1px solid #78fad6;
+}
+.convo_img {
+    width: 130px;
+    height: 130px;
+    margin-top: 5px;
+    margin-right: 10px;
     float: left;
+    background-image: url("/nui/images/peds/blank.png");
+}
+.convo_title {
+    width: 100%;
+    height: 50px;
+    font-family: "Oswald", system-ui;
+    font-size: 30px;
+    padding-top: 5px;
+    color: #78fad6;
+}
+.convo_description {
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    font-family: "Oswald", system-ui;
+    font-style: italic;
+}
+.convo_button_container {
+    width: 500px;
+    max-height: 300px;
+    clear: both;
+    float: right;
+}
+.convo_button {
+    width: 150px;
+    padding-top:12px;
+    padding-bottom:12px;
+    margin-top: 8px;
+    background-color: #78fad6;
+    text-align: center;
+    color: #01001d;
+    font-family: "Oswald", system-ui;
+    float: left;
+    margin-right: 7px;
+    font-weight: 700;
+    border-radius: 25px;
+}
+
+
+/* TRUST DISPLAY */
+.trust_display {
+    width: 300px;
+    height: 110px;
+    margin-top: 21%;
+    margin-left: 49%;
+    animation: fade 2s linear;
+    text-shadow: 4px 2px 4px #000000;
+    position: fixed;
+}
+.trustamount {
+    float: left;
+    font-family: "Luckiest Guy", serif;
+    font-size: 54px;
+    color:#78fad6;
+    height: 100px;
+    line-height: 100px;
+}
+.trust {
+    float: left;
+    font-family: "Luckiest Guy", serif;
+    padding-left: 10px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 35px;
 }
 
 
@@ -37,17 +210,25 @@
     border-right: 1px solid #78fad6;
 }
 
-
-
-
-
-/* BANNER */
-.banner {
-    width: 100%;
-    height: 50px;
-    background-color: #01001d;
-    border: 1px solid #78fad6;
+/* FLOATS */
+.left {
+    float: left;
 }
+.right {
+    float: right;
+}
+
+/*FONT STYLES */
+.italic {
+    font-style: italic;
+}
+.center_text {
+    text-align: center;
+}
+
+
+
+
 
 
 
@@ -58,6 +239,4 @@
     background-color: green;
 }
 
-.left {
-    float: left;
-}
+
