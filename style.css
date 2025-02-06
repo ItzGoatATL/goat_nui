@@ -1,0 +1,13 @@
+.container-two {
+    width: 50%;
+    height: 100%;
+    background-color: green;
+}
+
+.left {
+    float: left;
+}
+
+.border-r-color {
+    border-right: 1px solid #78fad6;
+}
